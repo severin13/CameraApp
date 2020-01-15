@@ -5,11 +5,14 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+
 canvas {
     width: 100%;
     height: 100%;
     z-index: 1;
 }
+
 
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
@@ -19,9 +22,11 @@ canvas {
     z-index: -10;
 }
 
+
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(-1);
 }
+
 
 #camera--trigger{
     width: 200px;
@@ -37,6 +42,7 @@ canvas {
     bottom: 30px;
     left: calc(50% - 100px);
 }
+
 
 .taken{
     height: 100px!important;
