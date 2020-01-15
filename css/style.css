@@ -21,7 +21,6 @@ canvas {
 
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(-1);
-    filter: FlipH;
 }
 
 #camera--trigger{
